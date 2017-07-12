@@ -30,3 +30,6 @@ Bluetooth module via Bluetooth and will sent serial bytes to the ATmega accordin
 and anticlockwise direction).We use Arduino software to program the ATmega328p.The code will
 trigger the module and take serial bytes from the android app and work according to the given
 operation.
+
+The Android apllication can be downloaded from :-
+https://drive.google.com/open?id=0B529HQ0k77iAbFZVMVltN21vMHM
