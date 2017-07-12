@@ -1,5 +1,5 @@
 # Wireless-Controlled-Vacuum-Cleaner-Robot
-Its a wireless Vacuum cleaner which can be controlled automatically or from an android application
+A wireless Vacuum cleaner which can be controlled automatically or from an android application
 We all are very familiar with a vacuum cleaner which create a partial vacuum to suck up dust and
 dirt from the floor and from other surfaces. In this project, we made a hoover which can automatic sweep floor or can be easily handled by our smartphone and swipe dust & dirt with the same
 efficiency as our normal sweepers do, eliminating the problem of holding it by hand and giving us
