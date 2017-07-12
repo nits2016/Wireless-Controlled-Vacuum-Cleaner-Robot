@@ -5,12 +5,13 @@ dirt from the floor and from other surfaces. In this project, we made a hoover w
 efficiency as our normal sweepers do, eliminating the problem of holding it by hand and giving us
 access of cleaning a spot rather than the whole area.
 
-Construction of Model
+Construction of Model :- 
 The model is rectangular bot with concealed wheels(two) at back and a castor wheel at front. The main motor and rotating brush lies at the centre of the body. At the centre-bottom of design one
 nozzle is placed which is connected to the dirt bag in which dirt will be collected. There are also
 two brush-propellers placed at the corners which rotates and collects the dirt pushing it at the right position for the nozzle. Moreover, the bot from the centre bottom will have a boundary of
 brushes to prevent the dirt from scattering/spreading.
-Requirement of motors: Two 150rpm motors for track wheels. One 1000rpm main motor for
+
+Requirement of motors :- Two 150rpm motors for track wheels. One 1000rpm main motor for
 creating the suction pull. Two mini 50rpm dc motors for two end propellers. The ATmega328p and
 L293D IC’s are used to configure all the motors and a Bluetooth module (later we experimented
 with the help of Xbee) for making it wireless.
@@ -20,7 +21,8 @@ is used.
 L293D – It is a typical Motor Driver IC which allows DC motor to drive on either direction. It is a 16-
 pin IC which can control a set of two DC motors simultaneously in any direction.
 Bluetooth Module(HC-05) – It is an easy to use Bluetooth Serial Port Protocol module designed for transparent wireless serial connection setup. The module can be used in a Master or Slave configuration, making it a great solution for wireless communication.
-Implementation and Working
+
+Implementation and Working :-
 The robot will be controlled by an android application(Made in MIT Inventor App). The application contains movement buttons for the forward/reverse/left/right motion with an extra button for the switching on the
 vacuum cleaner. The Bluetooth module will be interfaced with ATmega328p with Rx and Tx pin connected to the Tx and Rx of Atmega respectively. The application will get connected to
 Bluetooth module via Bluetooth and will sent serial bytes to the ATmega according to the operations to be performed. The two track motors are connected to the input and output pin
