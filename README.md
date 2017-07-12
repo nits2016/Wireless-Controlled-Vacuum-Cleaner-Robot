@@ -33,3 +33,6 @@ operation.
 
 The Android apllication can be downloaded from :-
 https://drive.google.com/open?id=0B529HQ0k77iAbFZVMVltN21vMHM
+
+To know the android application : 
+just import the below .aia file to your mit inventor new project
